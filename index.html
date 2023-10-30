@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset = "UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="icon" href="assets/icon.png" type="image/x-icon">
+    <title>Marchenko Andrew UI/UX Designer</title>
+</head>
+<body>
+<div class="menu">
+    <ul class="menu_list">
+        <li><a class="button_text" href="@">About me</a></li>
+        <li><a class="button_text" href="index2.html">Projects</a></li>
+        <li><a class="button_text" href="@">Contacts</a></li>
+    </ul>
+</div>
+
+    <div class="main">
+        <div class="introducing">
+            <div class="article_main">
+                <div class="title">Hi! I am Marchenko Andrew & I am a</div>
+                <div class="large_title">UI/UX Designer</div>
+                <div class="text">
+                Allow me to express my imagination and skill through each pixel.<br>
+                Step into my creative realm!</div>
+            </div>
+            <button id="goToPage" class="button_projects button_text">view my projects</button>
+        </div>
+        <img class="photo_main" src="photos/my_photo.png" alt="My photo">
+    </div>
+
+    <div class="about_me_container">
+        <button id="about_me_Button" class="active_button button_text">About me</button>
+        <button id="skills_Button" class="button_text">Skills</button>
+        <button id="education_Button" class="button_text">Education</button>
+    </div>
+    <div class="content">
+        <div id="about_me_Content" class="none active-content">
+            <p class="title indent">Welcome to my world of design! 
+                I'm a detail-oriented individual with a passion 
+                for combining the beautiful and the practical into 
+                a seamless blend. Before diving into a project, 
+                I meticulously seek and study all necessary information 
+                to ensure the creation of a truly high-quality product.</p>
+                
+            <p class="title indent">My drive for self-improvement motivates me to explore new methods 
+                and innovations continually. I prefer to experiment and evolve 
+                constantly. For me, creativity is not just a process; it's life 
+                itself, and I'm always eager to bring something exceptional to fruition.</p>
+
+            <p class="title indent">Let's embark on a journey of crafting something truly extraordinary together.</p>
+            
+        </div>
+        <div id="skills_Content" class="none">
+            <ul class="list_skills">
+                <li class="skills_container">
+                    <p class="title indent">Hard skills</p>
+                    <div class="elements">
+                        <img src="assets/figma.png" alt="figma">
+                        <div>
+                            <p class="large_text upper_text">Figma</p>
+                            <p class="text">Main tool</p>
+                        </div>
+                    </div>
+                    <div class="elements">
+                        <img src="assets/photoshop.png" alt="figma">
+                        <div>
+                            <p class="large_text upper_text">Adobe Photoshop</p>
+                            <p class="text">Editing images</p>
+                        </div>
+                    </div>
+                    <div class="elements">
+                        <img src="assets/illustrator.png" alt="figma">
+                        <div>
+                            <p class="large_text upper_text">Adobe Illustrator</p>
+                            <p class="text">Creating and editing vector images</p>
+                        </div>
+                    </div>
+                    <div class="elements">
+                        <img src="assets/krita.png" alt="figma">
+                        <div>
+                            <p class="large_text upper_text">Krita</p>
+                            <p class="text">Drawing pictures</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="skills_container">
+                    <p class="title indent">Soft skills</p>
+                    <p class="large_text upper_text elements">Communication</p>
+                    <p class="large_text upper_text elements">Adaptability</p>
+                    <p class="large_text upper_text elements">Attention to details</p>
+                    <p class="large_text upper_text elements">Curiosity</p>
+                    <p class="large_text upper_text elements">Problem solving</p>
+                </li>
+                <li class="skills_container">
+                    <p class="title indent">Languages</p>
+                    <div class="elements_language">
+                        <p class="large_text upper_text">English</p>
+                        <p class="text">Intermediate (B1)</p>
+                    </div>
+                    <div class="elements_language">
+                        <p class="large_text upper_text">Ukrainian</p>
+                        <p class="text">Native</p>
+                    </div>
+                </li>
+            </ul>    
+        </div>
+        <div id="education_Content" class="none">
+            <div class="edu_container">
+                <p class="large_text">Undergraduate Degree 
+                    <br>Kherson State University, Kherson</p>
+                <p class="text">September 2021-Present</p>
+                <p class="large_text">Specialty 121- Software engineering</p>
+            </div>
+            <div class="edu_container">
+                <p class="large_text">Kherson Scientific Lyceum 
+                    <br>of the Kherson Regional Council, Kherson</p>
+                <p class="text">September 2017-May 2021</p>
+                <p class="large_text">Beginning of studies in the field 
+                    <br>of Computer Graphics and Computer Programming</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="footer">
+        <hr>
+        <div class="footer_stuff">
+            <button id="goToPage_2" class="button_projects button_text">view my projects</button>
+            <div class="gmail">
+                <img src="assets/gmail.png" alt="gmail">
+                <a class="text " href="@">marchenkoandrew.mail@gmail.com</a>         
+            </div>
+        </div>
+    </div>
+    <script src="src/js/script.js"></script>
+</body>
+</html>
