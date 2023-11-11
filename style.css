@@ -248,8 +248,6 @@ hr{
 }
 
 .footer_stuff{
-    /*display: flex;
-    align-items: center;*/
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -259,13 +257,8 @@ hr{
     display: inline-flex;
     justify-content: center;
     align-items: flex-end;
-
-    /*right: 6.25%;
-    display: flex;
-    align-items: ;*/
 }
 
 .gmail img{
     margin-right: 10px;
-
 }
