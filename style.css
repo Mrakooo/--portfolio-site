@@ -93,7 +93,7 @@ body{
 
 .main{
     display: flex;
-    justify-content: center; /* Вирівнювання по горизонталі по центру */
+    justify-content: center;
     margin-top: 15.36%;
     margin-left: 13.54%;
     margin-right: 13.54%;
@@ -205,10 +205,38 @@ body{
     margin-bottom: 24px;
 }
 
+/*Projects*/
+
+.projects_container {
+    margin: 8.3% 13.54% 80px 13.54%;
+  }
+
+.view_projects{
+    display: flex;
+    margin-left: 13.54%;
+    margin-right: 13.54%;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.go_to_project{
+    text-decoration: none;
+    color: inherit;
+}
+
+.project_info{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-bottom: 2px solid var(--additional_col);
+    margin: 4% 0 12% 4%;
+}
+
 /*Footer*/
 
 hr{
-    margin: 10.4% 0 60px 0;
+    margin: 6% 0 60px 0;
     stroke-width: 2px;
     stroke: var(--object_col);
 }
@@ -216,7 +244,7 @@ hr{
 .footer{
     margin-left: 13.54%;
     margin-right: 13.54%;
-
+    margin-bottom: 120px;
 }
 
 .footer_stuff{
