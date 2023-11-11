@@ -77,3 +77,6 @@ document.querySelectorAll('a[href^="index.html#section_about_me"]').forEach(anch
     });
   });
 });
+
+
+/*Mob menu */
