@@ -57,11 +57,6 @@ document.querySelector('a[href="#section_contacts"]').addEventListener('click', 
   e.preventDefault();
   document.getElementById('section_contacts').scrollIntoView({ behavior: 'smooth' });
 });
-/*
-document.querySelector('a[href="#section_contacts_2"]').addEventListener('click', function(e) {
-  e.preventDefault();
-  document.getElementById('section_contacts_2').scrollIntoView({ behavior: 'smooth' });
-});*/
 
 document.querySelector('a[href="#section_about_me"]').addEventListener('click', function(e) {
   e.preventDefault();
@@ -80,3 +75,35 @@ document.querySelectorAll('a[href^="index.html#section_about_me"]').forEach(anch
 
 
 /*Mob menu */
+
+/*
+document.addEventListener("DOMContentLoaded", function () {
+	var checkbox = document.querySelector('.checkbox');
+	var menuContainer = document.querySelector('.menu-items');
+  
+	checkbox.addEventListener('change', function () {
+	  if (checkbox.checked) {
+		menuContainer.style.transform = 'translateX(0)';
+	  } else {
+		menuContainer.style.transform = 'translateX(100%)';
+	  }
+	});
+  
+	// Отримуємо всі пункти меню
+	var menuItems = document.querySelectorAll('.menu-items a');
+  
+	// Додаємо обробник подій click на кожен пункт меню
+	menuItems.forEach(function (item) {
+	  item.addEventListener('click', function () {
+		// Затримка перед закриттям меню для завершення анімації
+		setTimeout(function () {
+		  // Закрити меню
+		  menuContainer.style.transform = 'translateX(100%)';
+  
+		  // Зняти позначку з чекбоксу після закриття
+		  checkbox.checked = false;
+		}, 500); // Час анімації меню в мілісекундах
+	  });
+	});
+  });
+*/
