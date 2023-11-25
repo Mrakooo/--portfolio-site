@@ -138,11 +138,19 @@ body {
   margin-right: 13.54%;
 }
 
+.about_me_container button{
+  padding-right: 5.2%;
+}
+
+.about_me_container > :last-child {
+  padding-right: 0;
+}
+
 button {
   background: none;
   border: none;
   color: var(--additional_col);
-  padding-right: 5.2%;
+  /*padding-right: 5.2%;*/
   cursor: pointer;
 }
 
@@ -261,6 +269,9 @@ hr {
   display: none;
 }
 
+
+
+
 /*Mob menu*/
 
 @media only screen and (max-width: 1200px) {
@@ -277,7 +288,6 @@ hr {
   .navbar {
     width: 100%;
     display: block;
-    /*box-shadow: 0 1px 4px rgb(146 161 176 / 15%);*/
   }
 
   .nav-container {
@@ -285,10 +295,16 @@ hr {
     justify-content: space-between;
     align-items: center;
     height: 62px;
+    pointer-events: none;
+  }
+
+  .checkbox{
+    pointer-events: auto;
   }
 
   .navbar .menu-items {
     display: flex;
+    pointer-events: auto;
   }
 
   .navbar .nav-container li {
@@ -381,7 +397,6 @@ hr {
 
   .navbar .menu-items li {
     margin-bottom: 2.5rem;
-    /*font-size: 34px;*/
     font-weight: 500;
   }
 
@@ -401,9 +416,8 @@ hr {
     transform: rotate(-45deg);
   }
 
-  .nav-container input[type="checkbox"]:checked ~ .logo {
-    display: none;
-  }
+
+  
 
   /*Adaptive*/
 
@@ -589,5 +603,25 @@ hr {
 
   .gmail img {
     display: none;
+  }
+
+  /*ABOUT ME*/
+  
+  .about_me_container{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 26px;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .about_me_container button{
+    font-size: 24px;
+    padding-bottom: 16px;
+    padding-right: 0;
+  }  
+
+  .content p {
+    font-size: 20px;
   }
 }
