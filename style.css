@@ -281,7 +281,7 @@ hr {
 
   .container {
     max-width: 1050px;
-    width: 90%;
+    width: 12%;
     margin: auto;
   }
 
@@ -295,16 +295,16 @@ hr {
     justify-content: space-between;
     align-items: center;
     height: 62px;
-    pointer-events: none;
+    /*pointer-events: none;*/
   }
-
+/*
   .checkbox{
     pointer-events: auto;
   }
-
+*/
   .navbar .menu-items {
     display: flex;
-    pointer-events: auto;
+    /*pointer-events: auto;*/
   }
 
   .navbar .nav-container li {
@@ -400,6 +400,24 @@ hr {
     font-weight: 500;
   }
 
+
+  .open .menu-items {
+    transform: translateX(0);
+  }
+
+  .open .hamburger-lines .line1 {
+    transform: rotate(45deg);
+  }
+
+  .open .hamburger-lines .line2 {
+    transform: scaleY(0);
+  }
+
+  .open .hamburger-lines .line3 {
+    transform: rotate(-45deg);
+  }
+
+  /*
   .nav-container input[type="checkbox"]:checked ~ .menu-items {
     transform: translateX(0);
   }
@@ -416,7 +434,7 @@ hr {
     transform: rotate(-45deg);
   }
 
-
+*/
   
 
   /*Adaptive*/
@@ -558,6 +576,7 @@ hr {
     width: 160px;
     height: 160px;
     content: url("photos/my_photo_circle.png");
+    margin: 0;
   }
 
   .button_projects {

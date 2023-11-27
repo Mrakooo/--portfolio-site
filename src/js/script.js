@@ -73,7 +73,7 @@ document.querySelectorAll('a[href^="index.html#section_about_me"]').forEach(anch
   });
 });
 
-/*----- */
+/*----- 
 
 function closeMenu() {
 	var checkbox = document.getElementById('checkbox_menu');
@@ -86,4 +86,8 @@ document.addEventListener('DOMContentLoaded', function () {
 	links.forEach(function (link) {
 		link.addEventListener('click', closeMenu);
 	});
-});
+});*/
+
+function toggleMobileMenu(menu) {
+	menu.classList.toggle('open')
+  }
