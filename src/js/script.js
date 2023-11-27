@@ -73,3 +73,17 @@ document.querySelectorAll('a[href^="index.html#section_about_me"]').forEach(anch
   });
 });
 
+/*----- */
+
+function closeMenu() {
+	var checkbox = document.getElementById('checkbox_menu');
+	checkbox.checked = false;
+}
+
+document.addEventListener('DOMContentLoaded', function () {
+	var links = document.querySelectorAll('.menu-items a');
+
+	links.forEach(function (link) {
+		link.addEventListener('click', closeMenu);
+	});
+});
