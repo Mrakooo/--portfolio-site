@@ -78,6 +78,7 @@ document.querySelectorAll('a[href^="index.html#section_about_me"]').forEach(anch
 function closeMenu() {
 	var checkbox = document.getElementById('checkbox_menu');
 	checkbox.checked = false;
+	location.reload();
 }
 
 document.addEventListener('DOMContentLoaded', function () {
