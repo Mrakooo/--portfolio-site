@@ -390,7 +390,7 @@ hr {
     transform: translateX(100%);
     display: flex;
     flex-direction: column;
-    padding-left: 50px;
+    /*padding-left: 50px;*/
     transition: transform 0.5s ease-in-out;
     text-align: center;
   }
@@ -416,6 +416,8 @@ hr {
   .open .hamburger-lines .line3 {
     transform: rotate(-45deg);
   }
+
+  
 
   /*
   .nav-container input[type="checkbox"]:checked ~ .menu-items {
@@ -571,6 +573,7 @@ hr {
     font-size: 18px;
   }
 
+
   /*---*/
   .photo_main {
     width: 160px;
@@ -644,3 +647,17 @@ hr {
     font-size: 20px;
   }
 }
+
+
+@media only screen and (max-height: 720px){
+
+
+  .navbar .menu-items {
+    padding-top: 24px;
+  }
+
+  .navbar .menu-items li{
+    margin-bottom: 24px;
+  }
+}
+
