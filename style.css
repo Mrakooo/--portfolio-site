@@ -182,6 +182,11 @@ button {
   margin-bottom: 10px;
 }
 
+.edu_container .text{
+  font-size: 18px;
+  color: var(--additional_col);
+}
+
 .skills_container {
   display: inline-block;
   margin-right: 8.3%;
