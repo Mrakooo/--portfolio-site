@@ -302,11 +302,7 @@ hr {
     height: 62px;
     /*pointer-events: none;*/
   }
-/*
-  .checkbox{
-    pointer-events: auto;
-  }
-*/
+
   .navbar .menu-items {
     display: flex;
     /*pointer-events: auto;*/
